@@ -1,1 +1,21 @@
-git init	初始化，让git管理当前文件夹
+- git init	初始化，让git管理当前文件夹
+
+- git status 	检测当前目录下文件的状态
+- git add		将未被git管理的文件，加入到git管理当中。
+- git的三种状态：
+  - 红色：新增的文件/修改的文件：git add fileName
+  - 绿色：git已经管理起来：git commit -m '版本号'
+  - 无色：已经生成版本
+- git commit -m '版本号'
+- git log   查看版本记录
+- 三个区域：
+  - 工作区：已管理文件，新增文件，修改文件，使用git add命令将他们提交到暂存区；
+  - 暂存区：通过git commit提交到版本库
+  - 版本库：
+- git reset 版本号    回滚
+- git reflog 所有历史版本
+- git branch
+- git remote add origin 远程仓库地址：起别名
+- git push -u origin 某本地分支 ：将本地分支推送到远端
+- git clone 远程仓库地址：克隆远程仓库代码，虽然可能不显示其他分支，但事实上已经把所有分支克隆下来了，可以随意切换分支；本指令同时进行了起别名origin的过程
+- 
